@@ -26,10 +26,10 @@
             <li> <a href="#home" class="nav-link">Home</a></li>
             <li> <a href="#about" class="nav-link">About</a></li>
             <li> <a href="#projects" class="nav-link">Project</a></li>
-            <li> <a href="#twitter" class="nav-link">Twitter</a></li>
-            <li> <a href="#github" class="nav-link">Github
-
-                </a></li>
+            <li><a href="#contact" class="nav-link">Reach Out</a></li>
+            <!-- <li> <a href="#twitter" class="nav-link">Twitter</a></li>
+            <li> <a href="#github" class="nav-link">Github -->
+            <!-- </a></li> -->
             <li><a href="#linkedin" class="nav-link">LinkedIn</a></li>
         </ul>
         <button class="burger-menu" id="burger-menu">
@@ -37,7 +37,7 @@
         </button>
     </nav>
     <!-- Hero Section -->
-    <section class="hero" id="about">
+    <section class="hero" id="home">
         <img src="./assets/me.jpeg" alt="Sonia-Amehmbo" loading="lazy" class="hero-img">
         <!-- animate animated animate ShakeX is from animate CSS and serves to animate the texts in it -->
         <div class="bio animate__animated animate__shakeX">
@@ -50,7 +50,7 @@
         </div>
     </section>
     <!-- More about -->
-    <section class="more-about">
+    <section class="more-about" id="about">
         <h2>More about Me</h2>
         <p>
             I learned to code at the age of seventeen when I started schooling at the Universitty of Buea. I'm very
@@ -115,16 +115,73 @@
             </div>
         </div>
     </section>
+    <!-- LinkedIn -->
+    <div class="linkedIn" id="linkedin">
+        <p class="linkedin-section">
+            You could reach me on linkedIn from
+            <a href="https://www.linkedin.com/in/amehmbo-sonia-543971226/" target="_blank" class="linkedin">Here!</a>
+        </p>
+    </div>
     <!-- Contact section -->
-
+    <section class="contact" id="contact">
+        <h2>Send me an Email</h2>
+        <div class="contact-form-container">
+            <div class="contact-form">
+                <form action="https://mail.google.com/mail/u/0/#inbox" method="post">
+                    <div class="form-control">
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="sender-name" placeholder="Please enter your name"
+                            class="input-field" required />
+                    </div>
+                    <div class="form-control">
+                        <label for="email">Email adress:</label>
+                        <input type="email" name="sender-email" placeholder="Please enter your email"
+                            class="input-field" id="email" required />
+                    </div>
+                    <div class="form-control">
+                        <label for="message">Message: </label>
+                        <textarea class="input-field" cols="60" rows="20" placeholder="What do you have to say?"
+                            name="message" id="message" required></textarea>
+                    </div>
+                    <!-- <button> -->
+                    <input type="submit" value="submit" id="submit-btn" class="submit-btn">
+                    <!-- </button> -->
+                </form>
+            </div>
+        </div>
+    </section>
     <!-- Social accounts - Fixed to the right -->
-
+    <div class="socials">
+        <a href="https://twitter.com/Zennia316" target="_blank">
+            <img src="./assets/twitter-circled--v4.gif" loading="lazy" alt="Twitter" class="socicon">
+        </a>
+        <a href="https://www.instagram.com/zennia316/" target="_blank">
+            <img src="./assets/instagram-new--v2.gif" alt="Instagram" loading="lazy" class="socicon">
+        </a>
+        <a href="https://www.linkedin.com/in/amehmbo-sonia-543971226/" target="_blank">
+            <img src="./assets/linkedin-2--v2.gif" alt="LinkedIn" loading="lazy" class="socicon">
+        </a>
+        <a href="https://github.com/xennia316" target="_blank">
+            <img src="./assets/github--v2.gif" alt="GitHuub" loading="lazy" class="socicon">
+        </a>
+    </div>
     <!-- Scroll to top -->
-
+    <i class="scroll-up" id="scroll-up">
+        <img src="./assets/circled-up--v3.gif" alt="scroll-up" class="socicon up-arrow">
+    </i>
     <!-- Footer section -->
+    <footer>
+        <p class="copy">&copy; Copyright 2022</p>
+        <p class="copy">
+            Built with &#x2661;
 
+            <body>
+                <a href="https://twitter.com/koladechris" target="_blank">Kolade Chris (Ksound)</a>
+            </body>
+        </p>
+    </footer>
     <!-- Website scripts -->
-    <script src="assets/js/app.js"></script>
+    <script src="./assets/js/app.js"></script>
 
     <!-- Ion icons scripts -->
     <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
