@@ -142,7 +142,7 @@ nav ul li {
 .hero img {
   height: 20.5rem;
   width: 20.5rem;
-  border-radius: 10%;
+  border-radius: 8%;
 }
 
 .bio {
@@ -180,6 +180,31 @@ nav ul li {
 .more-about p {
   line-height: var(--line-height);
   padding: 0.4rem;
+}
+/* Certifications */
+.certifications{
+  background-color: #fff;
+  
+
+}
+ .cert-container {
+  display: flex;
+}
+.cert-img{
+  margin: 1rem;
+  padding: 1rem;
+}
+figcaption{
+  font-size: x-large;
+  font-weight: 100;
+  text-align: center;
+  text-decoration: double;
+}
+.certifications h2{
+  font-size: xx-large;
+  font-weight: bold;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-align: center;
 }
 /* skill styles */
 .skills{
@@ -417,14 +442,22 @@ transform: rotateZ(-2deg);}
   }
   /* More about me */
   .more-about{
-    margin-top: 2rem;
-    padding: 1rem 3.5rem;
+    /* margin-top: 2rem; */
+    margin: 2rem 0.5rem 1rem 0.5rem;
+    padding: 0.5rem 3rem;
   }
   .more-about h2{
     text-align: center;
   }
   .more-about p{
     text-align: center;
+  }
+  .certifications{
+    margin: 1rem 1rem 1rem 1rem;
+  }
+   figure .cert-img{
+    margin: 0.1rem;
+    padding-right: 0.1rem;
   }
   .icon{
     width: 5.875rem;
@@ -447,13 +480,8 @@ transform: rotateZ(-2deg);}
     width: 15rem;
   }
   .more-about {
-    width: 20.3rem;
-    margin-top: 2rem;
-    padding: 3px 3px;
-    /* overflow-wrap: normal;
-    overflow-x: hidden;
-    overscroll-behavior: var(--transition);
-    text-align: center; */
+    margin: 1.5rem 0.2rem 1.5rem 0.2rem;
+    padding: 0.3rem;
   }
   .bio{
     width: 18.3rem;
@@ -464,5 +492,16 @@ transform: rotateZ(-2deg);}
   }
   .contact-form-container{
     max-width: 17.75rem;
+  }
+  .icon{
+    width: 1.875rem;
+    height: 2rem;
+  }
+  .certifications{
+    margin: 0.5rem 0.5rem 0.5rem 0.5rem;
+  }
+   figure .cert-img{
+    margin: 0.1rem;
+    padding-right: 0.075rem;
   }
 }
