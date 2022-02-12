@@ -25,10 +25,10 @@
         <ul>
             <li> <a href="#home" class="nav-link">Home</a></li>
             <li> <a href="#about" class="nav-link">About</a></li>
+            <li> <a href="#cert" class="nav-link">Certificates</a></li> 
             <li> <a href="#projects" class="nav-link">Project</a></li>
             <li><a href="#contact" class="nav-link">Reach Out</a></li>
-            <!-- <li> <a href="#twitter" class="nav-link">Twitter</a></li>
-            <li> <a href="#github" class="nav-link">Github -->
+            <!-- <li> <a href="#github" class="nav-link">Github --> 
             <!-- </a></li> -->
             <li><a href="#linkedin" class="nav-link">LinkedIn</a></li>
         </ul>
@@ -63,6 +63,19 @@
             libero, necessitatibus, natus non animi ullam maiores laboriosam itaque! Maiores est laborum corporis,
             rem unde voluptas.</p>
     </section>
+    <!-- Certifications -->
+    <hr>
+    <section class="certifications" id="cert" >
+        <h2>My Certificates</h2>
+        <figure class="cert-container">
+            <img src="./assets/Screenshot_2022-02-12 freeCodeCamp org.png" alt="FCC" loading="lazy" class="cert-img" width="40%" height="100%">
+            <embed src="./assets/cert.pdf" alt="Study Section" loading="lazy" class="cert-img" width="50%" height="100%">
+        </figure>
+        <!-- <figcaption>
+            A few certificates I've acquired so far
+        </figcaption> -->
+    </section>
+    <hr>
     <!-- Skills section -->
     <section class="skills" id="skills">
         <h2 class="skill-header">My Top Skills</h2>
@@ -127,7 +140,7 @@
         <h2>Send me an Email</h2>
         <div class="contact-form-container">
             <div class="contact-form">
-                <form action="https://mail.google.com/mail/u/0/#inbox" method="post">
+                <form action="form.php" id="form__submit" method="post">
                     <div class="form-control">
                         <label for="name">Name:</label>
                         <input type="text" id="name" name="sender-name" placeholder="Please enter your name"
@@ -144,7 +157,7 @@
                             name="message" id="message" required></textarea>
                     </div>
                     <!-- <button> -->
-                    <input type="submit" value="submit" id="submit-btn" class="submit-btn">
+                        <a href="#" onclick="submitForm()" class="submit-btn"  id="submit-btn">Submit Here</a> 
                     <!-- </button> -->
                 </form>
             </div>
@@ -173,11 +186,9 @@
     <footer>
         <p class="copy">&copy; Copyright 2022</p>
         <p class="copy">
-            Built with &#x2661;
-
-            <body>
-                <a href="https://twitter.com/koladechris" target="_blank">Kolade Chris (Ksound)</a>
-            </body>
+            Built by &#x2661; Sonia Amehmbo  
+            <br>
+            Zennia316
         </p>
     </footer>
     <!-- Website scripts -->
