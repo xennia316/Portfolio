@@ -1,19 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@900&display=swap');
 
 /* Defining variables */
 :root {
-  --font-family: "Roboto", sans-serf;
+  --font-family: 'Playfair Display', serif;
   --normal-font: 700;
   --bold-font: 900;
   --bolder-font: xx-large;
-  --bg-color: #fcfc;
-  --primary-color: #4fa6f8f8;
+  --bg-color:rgb(254,190,219) ;
+  --primary-color: rgb(0,62,123);
   --secondary-color: #be3208;
   --primary-shadow: #8b8eaf;
   --secondary-shadow: #a17a69;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
-  --line-height: 1.7rem;
+  --line-height: 1.9rem;
   --transition: 0.3s;
 }
 /* variables end */
@@ -85,7 +85,7 @@ a:hover {
 
 body {
   font-family: var(--font-family);
-  background-color: #FFE6CC;
+  background-color: rgba(29,152,106,0.7);
 }
 nav {
   position: sticky;
@@ -142,7 +142,7 @@ nav ul li {
 .hero img {
   height: 20.5rem;
   width: 20.5rem;
-  border-radius: 8%;
+  border-radius: 5%;
 }
 
 .bio {
@@ -183,12 +183,16 @@ nav ul li {
 }
 /* Certifications */
 .certifications{
+  padding: 1rem;
   background-color: #fff;
-  
-
+  border-radius: 1%;
+margin: 1%;
 }
  .cert-container {
   display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+  margin-bottom: 01rem;
 }
 .cert-img{
   margin: 1rem;
@@ -201,6 +205,7 @@ figcaption{
   text-decoration: double;
 }
 .certifications h2{
+  margin: 1rem 0 0 0;
   font-size: xx-large;
   font-weight: bold;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -276,6 +281,7 @@ figcaption{
   box-shadow: 0 3px 10px var(--primary-shadow);
   padding: 20px;
   margin: 10px;
+  line-height: 1.5rem;
 }
 /* contact section */
 .contact{
@@ -351,6 +357,7 @@ figcaption{
 }
 /* LinkedIn section */
 .linkedin-section{
+  top: 90px;
   text-align: center;
   border-bottom: rgba(249, 255, 168, 0.8);
   border-radius: 10px;
@@ -363,7 +370,6 @@ figcaption{
   animation-name: linkedin;
   animation-duration: 1s;
   animation-delay: 0.01s;
-  animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   animation-direction: alternate;
 }
