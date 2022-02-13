@@ -13,7 +13,7 @@
   --secondary-shadow: #a17a69;
   --bottom-margin: 0.5rem;
   --bottom-margin-2: 1rem;
-  --line-height: 1.9rem;
+  --line-height: 48px;
   --transition: 0.3s;
 }
 /* variables end */
@@ -140,9 +140,10 @@ nav ul li {
   margin: auto;
 }
 .hero img {
-  height: 20.5rem;
-  width: 20.5rem;
-  border-radius: 5%;
+  height: 19.2rem;
+  width: 25rem;
+  margin: 0.625rem;
+  border-radius: 2%;
 }
 
 .bio {
